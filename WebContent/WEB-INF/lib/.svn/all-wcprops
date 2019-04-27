@@ -1,0 +1,839 @@
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/ahlzmd/!svn/ver/35666/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib
+END
+xml-security-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/xml-security-1.4.1.jar
+END
+jackson-xc-1.9.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jackson-xc-1.9.2.jar
+END
+jcert.jar
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jcert.jar
+END
+spring-beans-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 228
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-beans-3.2.3.RELEASE.jar
+END
+jakarta-oro.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jakarta-oro.jar
+END
+javassist-3.11.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/javassist-3.11.0.GA.jar
+END
+commons-digester-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-digester-2.0.jar
+END
+spring-context-support-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-context-support-3.2.3.RELEASE.jar
+END
+commons-io-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-io-2.2.jar
+END
+persistence.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/persistence.jar
+END
+dbunit-2.4.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/dbunit-2.4.2.jar
+END
+guava-17.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/guava-17.0.jar
+END
+jackson-mapper-asl-1.9.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jackson-mapper-asl-1.9.2.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jxl.jar
+END
+logback-classic-1.0.13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/logback-classic-1.0.13.jar
+END
+jaxws-api-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jaxws-api-2.0.jar
+END
+spring-security-crypto-3.1.4.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-security-crypto-3.1.4.RELEASE.jar
+END
+struts2-spring-plugin-2.3.16.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/struts2-spring-plugin-2.3.16.3.jar
+END
+hibernate-validator-4.1.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/hibernate-validator-4.1.0.Final.jar
+END
+spring-expression-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-expression-3.2.3.RELEASE.jar
+END
+spring-jdbc-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 227
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-jdbc-3.2.3.RELEASE.jar
+END
+jdom-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jdom-1.0.jar
+END
+XmlSchema-1.4.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/XmlSchema-1.4.7.jar
+END
+xbean-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/xbean-2.2.0.jar
+END
+axiom-impl-1.2.12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/axiom-impl-1.2.12.jar
+END
+spring-aop-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-aop-3.2.3.RELEASE.jar
+END
+slf4j-api-1.7.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/slf4j-api-1.7.5.jar
+END
+xbean-spring-2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/xbean-spring-2.8.jar
+END
+gson-2.2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/gson-2.2.4.jar
+END
+slf4j-log4j12-1.7.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.5.jar
+END
+junit-4.11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/junit-4.11.jar
+END
+spring-tx-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-tx-3.2.3.RELEASE.jar
+END
+spring-security-core-3.1.4.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-security-core-3.1.4.RELEASE.jar
+END
+logback-access-1.0.13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/logback-access-1.0.13.jar
+END
+asm-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/asm-3.2.jar
+END
+slf4j-log4j12-1.5.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/slf4j-log4j12-1.5.10.jar
+END
+jaxb-api-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jaxb-api-2.2.jar
+END
+commons-fileupload-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-fileupload-1.3.1.jar
+END
+hibernate-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/hibernate-annotations.jar
+END
+jersey-json-1.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jersey-json-1.19.jar
+END
+standard.jar
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/standard.jar
+END
+jnet.jar
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jnet.jar
+END
+jce.jar
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jce.jar
+END
+jersey-client-1.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jersey-client-1.19.jar
+END
+aspectjweaver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/aspectjweaver.jar
+END
+mybatis-spring-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/mybatis-spring-1.1.1.jar
+END
+jsse.jar
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jsse.jar
+END
+hibernate-commons-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 231
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/hibernate-commons-annotations.jar
+END
+mybatis-3.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/mybatis-3.1.1.jar
+END
+logback-core-1.0.13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/logback-core-1.0.13.jar
+END
+webservices-extra-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/webservices-extra-api.jar
+END
+neethi-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/neethi-3.0.1.jar
+END
+ehcache-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/ehcache-1.2.1.jar
+END
+db2jcc_license_cu.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/db2jcc_license_cu.jar
+END
+mockwebserver-1.5.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/mockwebserver-1.5.4.jar
+END
+ezmorph-1.0.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/ezmorph-1.0.3.jar
+END
+jackson-jaxrs-1.9.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jackson-jaxrs-1.9.2.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/hibernate3.jar
+END
+commons-codec-1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/19494/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-codec-1.8.jar
+END
+jersey-server-1.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jersey-server-1.19.jar
+END
+commons-lang-2.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-lang-2.6.jar
+END
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 235
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar
+END
+spring-context-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 230
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-context-3.2.3.RELEASE.jar
+END
+jpush-client-3.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jpush-client-3.1.2.jar
+END
+xfire-aegis-1.2.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/24870/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/xfire-aegis-1.2.6.jar
+END
+aopalliance.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/aopalliance.jar
+END
+jersey-servlet-1.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jersey-servlet-1.19.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jstl.jar
+END
+saaj-api-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/saaj-api-1.3.jar
+END
+org.springframework.aspects-3.0.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/org.springframework.aspects-3.0.3.RELEASE.jar
+END
+j2ee.jar
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/j2ee.jar
+END
+xwork-core-2.3.16.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/xwork-core-2.3.16.3.jar
+END
+db2jcc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 208
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/db2jcc.jar
+END
+core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/ahlzmd/!svn/ver/25401/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/core.jar
+END
+druid-0.2.24.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/druid-0.2.24.jar
+END
+javax.ws.rs-api-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/javax.ws.rs-api-2.0.jar
+END
+spring-data-redis-1.0.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-data-redis-1.0.3.RELEASE.jar
+END
+jedis-2.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/19206/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jedis-2.1.0.jar
+END
+jackson-databind-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jackson-databind-2.2.2.jar
+END
+hessian-3.1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/hessian-3.1.6.jar
+END
+xsqlbuilder.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/xsqlbuilder.jar
+END
+aspectjrt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/aspectjrt.jar
+END
+jackson-core-asl-1.9.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jackson-core-asl-1.9.2.jar
+END
+struts2-core-2.3.16.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/struts2-core-2.3.16.3.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/19143/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/log4j-1.2.16.jar
+END
+ejb3-persistence.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/ejb3-persistence.jar
+END
+xfire-core-1.2.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/24870/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/xfire-core-1.2.6.jar
+END
+spring-core-4.1.4.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 227
+/svn/ahlzmd/!svn/ver/35665/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar
+END
+jta-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jta-1.1.jar
+END
+freemarker-2.3.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/freemarker-2.3.19.jar
+END
+spring-orm-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-orm-3.2.3.RELEASE.jar
+END
+jackson-core-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jackson-core-2.2.2.jar
+END
+httpclient-4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/httpclient-4.3.jar
+END
+jaxen-1.1-beta-9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jaxen-1.1-beta-9.jar
+END
+jackson-annotations-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 227
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jackson-annotations-2.2.2.jar
+END
+spring-security-config-3.1.4.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 238
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-security-config-3.1.4.RELEASE.jar
+END
+httpcore-4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/httpcore-4.3.jar
+END
+ImApi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/ImApi.jar
+END
+mysql-connector-java-5.1.24.jar
+K 25
+svn:wc:ra_dav:version-url
+V 229
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.24.jar
+END
+spring-security-web-3.1.4.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 235
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-security-web-3.1.4.RELEASE.jar
+END
+cglib-nodep-2.1_3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/cglib-nodep-2.1_3.jar
+END
+commons-beanutils-1.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-beanutils-1.8.2.jar
+END
+jersey-spring-1.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jersey-spring-1.7.jar
+END
+wsdl4j-1.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/wsdl4j-1.6.2.jar
+END
+cfgatewayadapter.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/cfgatewayadapter.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar
+END
+stax-api-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/stax-api-1.0.1.jar
+END
+mail-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/mail-1.4.jar
+END
+concurrent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/concurrent.jar
+END
+commons-pool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-pool.jar
+END
+jsr311-api-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jsr311-api-1.1.1.jar
+END
+commons-collections-3.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 227
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar
+END
+rapid-framework-3.9.2.20100720.jar
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/rapid-framework-3.9.2.20100720.jar
+END
+jettison-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jettison-1.1.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-logging-1.1.jar
+END
+commons-net-3.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-net-3.3.jar
+END
+ognl-3.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/ognl-3.0.6.jar
+END
+webservices-extra.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/webservices-extra.jar
+END
+oscache-2.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/oscache-2.3.1.jar
+END
+xalan-2.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/xalan-2.7.0.jar
+END
+jackson-all-1.9.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jackson-all-1.9.5.jar
+END
+spring-security-cas-client-3.0.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-security-cas-client-3.0.8.RELEASE.jar
+END
+saaj-impl-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/saaj-impl-1.3.jar
+END
+arcumerchant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/arcumerchant.jar
+END
+jersey-core-1.19.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/jersey-core-1.19.jar
+END
+bcprov-jdk14-127.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/bcprov-jdk14-127.jar
+END
+wstx-asl-3.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/wstx-asl-3.2.0.jar
+END
+validation-api-1.0.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/validation-api-1.0.0.GA.jar
+END
+commons-dbcp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-dbcp.jar
+END
+commons-httpclient-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/commons-httpclient-3.0.1.jar
+END
+json-lib-2.1-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/json-lib-2.1-jdk15.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/antlr-2.7.6.jar
+END
+spring-web-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-web-3.2.3.RELEASE.jar
+END
+quartz-1.8.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/quartz-1.8.6.jar
+END
+slf4j-api-1.6.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/slf4j-api-1.6.6.jar
+END
+backport-util-concurrent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/backport-util-concurrent.jar
+END
+org.springframework.aop-3.0.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 239
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/org.springframework.aop-3.0.3.RELEASE.jar
+END
+spring-webmvc-3.2.3.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 229
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/spring-webmvc-3.2.3.RELEASE.jar
+END
+axiom-api-1.2.12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/WebRoot/WEB-INF/lib/axiom-api-1.2.12.jar
+END

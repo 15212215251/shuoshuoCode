@@ -1,0 +1,19 @@
+#true false
+isSecurt=true
+
+#jdbc.password=chuTcRPyykc=
+certPath=/home/appweb/cert/
+#certPath=d:/
+dzPath=/home/appweb/dz/
+#dzPath=F:/
+
+#url=http\://172.27.20.48/cweb/connect.do
+url=http\://172.27.20.49/cweb/connect.do
+#url1=http\://172.27.20.48/cweb/connect.do
+url1=http\://172.27.20.49/cweb/connect.do
+ 
+#ip
+ip=
+#,127.0.0.1
+ 
+redisFlag=true

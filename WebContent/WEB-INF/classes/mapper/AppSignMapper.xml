@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.AppSignDao">
+   <!-- 查询已签约银行卡列表-->
+  <select id="queryBankcardList" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT USERNO,ACCTNO,ACCTNAME,PHONE,TYPE,CARDTYPE,CERTTYPE,CERTNO,BANK,STATUS FROM APP_SIGN
+       			WHERE USERNO = #{userNo} AND STATUS = '0'
+  </select>
+  
+  <select id="querySign" parameterType="java.util.Map" resultType="java.util.Map">
+			select a.signno ,a.merchantid ,a.status from app_signmx a left join app_unit b on  a.merchantid=b.merchantid 
+				where  a.acctno=#{cardNo} and a.status='0' and a.type=#{channelNo} and b.proname=#{feeType} and b.unitno=#{unitNo}
+  </select>
+  
+  <select id="querySignByCard" parameterType="java.util.Map" resultType="java.util.Map">
+			SELECT USERNO,PHONE,ACCTNO,ACCTNAME FROM APP_SIGN WHERE USERNO = #{userNo} AND ACCTNO=#{cardNo} AND STATUS='0'
+  </select>
+  
+  <select id="queryCardName" parameterType="java.util.Map" resultType="java.util.Map">
+			SELECT USERNO,PHONE,ACCTNO,ACCTNAME FROM APP_SIGN WHERE USERNO = #{userNo} AND ACCTNO=#{cardNo} AND STATUS='0'
+  </select>
+  
+   <select id="queryUserNoByCardno" parameterType="java.util.Map" resultType="java.util.Map">
+			SELECT USERNO,ACCTNO,ACCTNAME FROM APP_SIGN WHERE  ACCTNO=#{cardNo} AND STATUS='0'
+  </select>
+  
+   <select id="queryCardNameNew" parameterType="java.util.Map" resultType="java.util.Map">
+			SELECT USERNO,PHONE,ACCTNO,ACCTNAME FROM APP_SIGN WHERE USERNO = #{userNo} AND ACCTNO=#{cardNo}
+  </select>
+  
+</mapper>

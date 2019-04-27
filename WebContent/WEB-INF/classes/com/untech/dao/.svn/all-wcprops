@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/ahlzmd/!svn/ver/39765/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao
+END
+OrderDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/ahlzmd/!svn/ver/46032/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/OrderDao.java
+END
+AppPaycodeLimitlistDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/ahlzmd/!svn/ver/35661/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppPaycodeLimitlistDao.java
+END
+AppUnitDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/19671/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppUnitDao.java
+END
+WjbzMoneyDzDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/ahlzmd/!svn/ver/39336/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/WjbzMoneyDzDao.java
+END
+CommerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/ahlzmd/!svn/ver/19511/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/CommerDao.java
+END
+AppMerchantParamDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/35661/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppMerchantParamDao.java
+END
+RestfulDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/RestfulDao.java
+END
+AppMoneyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/46031/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppMoneyDao.java
+END
+AppPaycodeStatusDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/35661/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppPaycodeStatusDao.java
+END
+OnlinePayDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/24870/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/OnlinePayDao.java
+END
+AppPaymxDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/39765/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppPaymxDao.java
+END
+AppPaycodeLimitinfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/ahlzmd/!svn/ver/35661/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppPaycodeLimitinfoDao.java
+END
+AppPaycodeInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/ahlzmd/!svn/ver/35661/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppPaycodeInfoDao.java
+END
+AppSignDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/40631/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppSignDao.java
+END
+MachineDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/ahlzmd/!svn/ver/19466/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/MachineDao.java
+END
+AppPaycodeInfohisDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/ahlzmd/!svn/ver/35661/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppPaycodeInfohisDao.java
+END
+AppSecurtDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/ahlzmd/!svn/ver/19198/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/AppSecurtDao.java
+END
+WjbzCommenDzDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/ahlzmd/!svn/ver/39336/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/dao/WjbzCommenDzDao.java
+END

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.AppPaymxDao">
+	<!--  此处来操作一个查询paymx表明细的sql; -->
+      <select id="getPaymxForEdu" parameterType="java.util.Map" resultType="java.util.Map">
+   	      SELECT ID, ORDERID, PAYERTIME, USERNO, ACCOUNTNO, ACCOUNTNAME, UNITNO, UNITNAME, MONTH, TRANSAMT, SURCHARGEAMT, PAYAMT,
+   	      CARDNO, MOBILEPHONE, CHANNERNO, TRAFFICNO, TRAFFICCODE, TRAFFICTIME, TRAFFICADDR, COREFLOW, COREDATE, DZDATE, DZTIME,
+   	      FLAG, SEQNO, RESCODE, RESMSG, FEETYPE, NOTE1, NOTE2, NOTE3, NOTE4, NOTE5, BACKAMT, TRANSTYPE, MONEY, CARDAMT, JF, JFAMT,
+   	      TOTALAMT, MONEYFLAG, STATUS, MIDDLEFLOW1, MIDDLEDATE1, COREFLOW1, COREDATE1, DZSTATUS1, DZDATE1, DZTIME1,
+   	      ANDROIDID, MID, ORDER_STATUS, MOBILETYPE, MOBILEINFO, DETAIL FROM APP_PAYMX where PAYERTIME &lt;= #{endTimeStr} AND FLAG = '1'
+  	 	  AND NOTE2='true'   and MONEYFLAG='02'  order by ID asc 
+  	  </select>
+  	 
+  	  <select id="getFailedPaymx" resultType="java.util.Map">
+   	      SELECT ID, ORDERID, PAYERTIME, USERNO, ACCOUNTNO, ACCOUNTNAME, UNITNO, UNITNAME, MONTH, TRANSAMT, SURCHARGEAMT, PAYAMT,
+   	      CARDNO, MOBILEPHONE, CHANNERNO, TRAFFICNO, TRAFFICCODE, TRAFFICTIME, TRAFFICADDR, COREFLOW, COREDATE, DZDATE, DZTIME,
+   	      FLAG, SEQNO, RESCODE, RESMSG, FEETYPE, NOTE1, NOTE2, NOTE3, NOTE4, NOTE5, BACKAMT, TRANSTYPE, MONEY, CARDAMT, JF, JFAMT,
+   	      TOTALAMT, MONEYFLAG, STATUS, MIDDLEFLOW1, MIDDLEDATE1, COREFLOW1, COREDATE1, DZSTATUS1, DZDATE1, DZTIME1,
+   	      ANDROIDID, MID, ORDER_STATUS, MOBILETYPE, MOBILEINFO, DETAIL FROM APP_PAYMX where FLAG = '3' AND NOTE2='true' and MONEYFLAG='02'
+  	  </select>
+  	  
+  	  <update id="updatePayMxFlagByOrderId" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET  
+			FLAG='3' WHERE ORDERID=#{ORDERID}
+	 </update>
+	 
+	 <update id="updatePaymxFlag1ByOrderId" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET  
+			FLAG = '1' WHERE ORDERID=#{orderId}
+	 </update>
+	 
+     
+	 <select id="queryEduPayMxByOrderId" parameterType="java.util.Map" resultType="java.util.Map">
+	 	SELECT * FROM APP_PAYMX WHERE ORDERID=#{oldOrderId} AND NOTE2='true' and MONEYFLAG='02' 
+	 </select>
+	 
+	 <select id="getHolidayListByTimeStr" parameterType="java.lang.String" resultType="java.util.Map">
+	 	SELECT * FROM APP_HOLIDAY WHERE HDATE=#{hdate}
+	 </select>
+     
+          
+</mapper>

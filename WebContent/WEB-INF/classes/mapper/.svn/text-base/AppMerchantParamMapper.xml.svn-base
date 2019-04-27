@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.AppMerchantParamDao">
+   <!-- 查询密钥信息-->
+   <select id="queryMerchantParam" parameterType="java.util.Map" resultType="java.util.Map">
+   	    SELECT MERCHANTID,PARTNERID,PUBKEY,PRIKEY,NOTIFYURL,NOTE1,NOTE2,NOTE3 FROM 
+   	    APP_MERCHANT_PARAM 
+  		WHERE PARTNERID = #{partnerId}  
+   </select>
+</mapper>

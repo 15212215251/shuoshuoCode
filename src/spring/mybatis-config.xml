@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"D:/softs/mybatis-3-config.dtd">
+<configuration>
+	<!-- 命名空间  http://mybatis.org/dtd/   /home/appweb/-->
+	<typeAliases>
+		<typeAlias alias="User" type="com.untech.model.User" />
+		<typeAlias alias="Log" type="com.untech.model.Log" />
+
+	</typeAliases>
+
+	<!-- 映射map -->
+	<!-- 就表示为这个包下面的所有实体类设置别名。MyBatis默认的设置别名的方式就是去除类所在的包后的简单的类名，比如me.gacl.domain.User这个实体类的别名就会被设置成User。 -->
+	<mappers>
+	</mappers>
+</configuration>

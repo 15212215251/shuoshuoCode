@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.OnlinePayDao">
+            
+     <select id="queryCardType" parameterType="java.lang.String"  resultType="java.util.Map">
+     	 select bin bin,bintype bintype,name name from app_bin where bin=#{cardNo}
+     </select>
+     <select id="querySignCard" parameterType="java.lang.String"  resultType="java.util.Map">
+          SELECT ID, USERNO, ACCTNO, ACCTNAME, PHONE, TYPE, CARDTYPE, CERTTYPE, CERTNO,
+           BANK, NOTE1, NOTE2, STATUS FROM APP_SIGN WHERE  ACCTNO=#{cardNo}
+     </select>
+     <select id="queryAllCommer" parameterType="java.lang.String"  resultType="java.util.Map">
+          SELECT MERCHANTID, MERCHANTNAME, ACCTNO, ACCTNAME, AREA, FEETYPE, NOTE1,
+           NOTE2, AUTOSIGN FROM APP_COMMER WHERE AUTOSIGN='0'
+     </select>   
+     <update id="updateSignCard" parameterType="java.util.Map">
+	         UPDATE APP_SIGN SET ACCTNAME=#{cardName},PHONE=#{mobilePhone},CERTNO=#{certNo},STATUS=#{status},NOTE1=#{note1},USERNO=#{userNo}
+			 WHERE ACCTNO=#{cardNo} and type=#{channerNo}
+     </update>    
+     <update id="updateSignCardStatus" parameterType="java.util.Map">
+	         UPDATE APP_SIGN SET STATUS=#{status}
+			 WHERE USERNO=#{userNo} and ACCTNO=#{cardNo} and type=#{channerNo}
+     </update>     
+     <insert id="insertSignCard" parameterType="java.util.Map">
+			INSERT INTO APP_SIGN (USERNO, ACCTNO, ACCTNAME, PHONE, TYPE, CARDTYPE, CERTTYPE, CERTNO, BANK, NOTE1, NOTE2, STATUS) 
+		        VALUES 
+		        (#{userNo},#{cardNo},#{cardName},#{mobilePhone},#{channerNo},#{cardType},#{certType},#{certNo},#{bank},#{note1},'',#{status})
+	  </insert>     
+      <select id="querySignCardMx" parameterType="java.util.Map"  resultType="java.util.Map">
+          SELECT ID, MERCHANTID, ACCTNO, TYPE, STATUS, SIGNNO, NOTE1, NOTE2 FROM APP_SIGNMX where 
+          ACCTNO=#{cardNo} and MERCHANTID=#{merchantId} and TYPE=#{channerNo}
+     </select>
+      <update id="updateSignCardMx" parameterType="java.util.Map">
+	         UPDATE APP_SIGNMX SET SIGNNO=#{signNo},STATUS=#{status},NOTE1=#{note1}
+			 WHERE MERCHANTID=#{merchantId} and ACCTNO=#{cardNo} and type=#{channerNo}
+     </update>   
+      <insert id="insertSignCardMx" parameterType="java.util.Map">
+			INSERT INTO APP_SIGNMX (MERCHANTID, ACCTNO, TYPE, STATUS, SIGNNO, NOTE1, NOTE2) 
+		        VALUES 
+		        (#{merchantId},#{cardNo},#{channerNo},#{status},#{signNo},#{note1},'')
+	  </insert>  
+     <select id="querySignCardMxStatus" parameterType="java.util.Map"  resultType="java.util.Map">
+          SELECT ID, MERCHANTID, ACCTNO, TYPE, STATUS, SIGNNO, NOTE1, NOTE2 FROM APP_SIGNMX where 
+          ACCTNO=#{cardNo} 
+          <if test="status!=''">
+					and status=#{status}
+		  </if>
+     </select>
+     
+     
+      <select id="querySecurt" parameterType="java.util.Map"  resultType="java.util.Map">
+          SELECT USERNO, SECURT, NOTE1, NOTE2, CNTS FROM APP_SECURT where 
+          USERNO=#{userNo}  
+     </select>
+     <select id="validSecurt" parameterType="java.util.Map"  resultType="java.util.Map">
+          SELECT USERNO, SECURT, NOTE1, NOTE2, CNTS FROM APP_SECURT where 
+          USERNO=#{userNo} and   SECURT = #{paySecurt}
+     </select>
+      <update id="updateSecurt" parameterType="java.util.Map">
+	         UPDATE APP_SECURT SET SECURT = #{paySecurt},CNTS=0 where 
+          USERNO=#{userNo}
+     </update>   
+     <update id="updateSecurtByCnts" parameterType="java.util.Map">
+	         UPDATE APP_SECURT SET CNTS = CNTS+1 Where
+          USERNO=#{userNo}
+     </update>   
+     
+      <insert id="insertSecurt" parameterType="java.util.Map">
+             INSERT INTO APP_SECURT( USERNO, SECURT, CNTS) 
+                    values (#{userNo},#{paySecurt},0 )
+         </insert>
+</mapper>

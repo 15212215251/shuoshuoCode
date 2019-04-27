@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.AppMoneyDao">
+   <!-- 查询电子钱包金额-->
+   <select id="queryBalance" parameterType="java.util.Map" resultType="java.util.Map">
+   	    SELECT USERNO,TOTALAMT,QYWAMT,JFAMT,QTAMT,YHKAMT FROM APP_MONEY
+  		WHERE USERNO = #{userNo}
+   </select>
+   
+      <!-- 查询出租车电子钱包金额-->
+   <select id="queryBalanceForTaxi" parameterType="java.util.Map" resultType="java.util.Map">
+   	    SELECT USERNO,TOTALAMT,QYWAMT,JFAMT,QTAMT,YHKAMT FROM APP_MONEY
+  		WHERE USERNO = #{taxiUserNo}
+   </select>
+   
+   <insert id="insertMoneyMx" parameterType="java.util.Map">
+			INSERT INTO APP_MONEYMX (ORDERID,ZFORDERID,PAYERTIME,USERNO,MOBILEPHONE,FANTIME,TRANSAMT1,TRANSAMT2,TRANSAMT3,TYPE,CARDNO,CHANNERNO,TRANSTYPE,FEETYPE,STATUS,MIDDLEFLOW,MIDDLEDATE,COREFLOW,COREDATE,DZSTATUS,DZDATE,DZTIME,NOTE1,NOTE2,NOTE3,NOTE4,NOTE5,TRANSAMT5,TRANSAMT4,JFAMF) 
+		    VALUES 
+		    (#{orderId},#{zforderId},#{payertime},#{userNo},#{mobile},#{fantime},#{transamt1},#{transamt2},#{transamt3},#{type},#{cardno},#{channerno},#{transtype},#{feetype},#{status},#{middleflow},#{middledate},#{coreflow},#{coredate},#{dzstatus},#{dzdate},#{dztime},#{note1},#{note2},#{note3},#{note4},#{note5},#{transamt5},0.00,0.00)
+	</insert>
+	<update id="updateBalance" parameterType="java.util.Map">
+	         UPDATE APP_MONEY SET TOTALAMT=TOTALAMT+#{totalAmt}
+					,QTAMT=QTAMT+#{totalAmt}
+			 WHERE USERNO=#{userNo}
+    </update>
+	
+	<update id="updateMoney" parameterType="java.util.Map">
+			UPDATE APP_MONEY SET TOTALAMT=#{totalamt}
+				<if test="qywamt!=NULL">
+					,QYWAMT=#{qywamt}
+				</if>
+				<if test="jfamt!=NULL">
+					,JFAMT=#{jfamt}
+				</if>
+				<if test="qtamt!=NULL">
+					,QTAMT=#{qtamt}
+				</if>
+				<if test="yhkamt!=NULL">
+					,YHKAMT=#{yhkamt}
+				</if>
+			 WHERE USERNO=#{id}
+	</update>
+		
+	<update id="updateMoneyForTaxi" parameterType="java.util.Map">
+		UPDATE APP_MONEY SET TOTALAMT=#{totalamt}
+			<if test="yhkamt!=NULL">
+				,YHKAMT=#{yhkamt}
+			</if>
+		 WHERE USERNO=#{taxiUserNo}
+	</update>
+		
+		
+   <select id="queryMoneyMxByOrder" parameterType="java.util.Map" resultType="java.util.Map">
+   	      SELECT ID, ORDERID, ZFORDERID, PAYERTIME, USERNO, MOBILEPHONE, FANTIME, TRANSAMT1, TRANSAMT2, TRANSAMT3, TRANSAMT4, JFAMF,
+   	      CARDNO, CHANNERNO, TYPE, TRANSTYPE, FEETYPE, STATUS, MIDDLEFLOW, MIDDLEDATE, COREFLOW, COREDATE, DZSTATUS, DZDATE, DZTIME,
+   	       NOTE1, NOTE2, NOTE3, NOTE4, NOTE5, TRANSAMT5 FROM APP_MONEYMX where ORDERID=#{orderId}
+
+   </select>
+   
+   <update id="updateMoneyMxByOrderId" parameterType="java.util.Map">
+			UPDATE APP_MONEYMX SET COREFLOW=#{coreflow1},COREDATE=#{coredate1},
+			MIDDLEFLOW=#{middleflow1},MIDDLEDATE=#{middledate1} 
+			WHERE ZFORDERID=#{orderId}
+	</update>
+	
+	<!--出租车司机如果余额插入一条余额记录-->
+	 <insert id="insertTaxiMoney" parameterType="java.util.Map">
+			INSERT INTO APP_MONEY(USERNO, PHONE, TOTALAMT, QYWAMT, JFAMT, QTAMT, YHKAMT, NOTE1, NOTE2, NOTE3, NOTE4, NOTE5) 
+		    VALUES 
+		    (#{USERNO},#{PHONE},#{TOTALAMT},#{QYWAMT},#{JFAMT},#{QTAMT},#{YHKAMT},#{NOTE1},#{NOTE2},#{NOTE3},#{NOTE4},#{NOTE5})
+	</insert>
+   
+		
+</mapper>

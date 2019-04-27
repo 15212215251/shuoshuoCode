@@ -1,0 +1,26 @@
+#log4j
+#log4j.debug=true
+#
+log4j.rootLogger=info,CON,CONSOLE
+#log4j.rootLogger=DEBUG,CONSOLE
+#root logger?Appenders
+log4j.appender.CON=org.apache.log4j.RollingFileAppender
+log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender
+#log4j.logger.cn.ccb.qyzz =DEBUG
+#root logger
+#test path  50.175
+log4j.appender.CON.File=/home/appweb/weblog/untechpay.log
+#local path
+#log4j.appender.CON.File=c:/autoDev.log
+log4j.appender.CON.datePattern='.'yyyy-MM-dd
+log4j.appender.CON.MaxFileSize=50MB
+log4j.appender.CON.MaxBackupIndex=100
+log4j.appender.CON.layout=org.apache.log4j.PatternLayout
+log4j.appender.CON.layout.ConversionPattern=%d{yyyy-M-d HH:mm:ss}%x[%5p](%F:%L) %m%n
+log4j.appender.CON.append=true
+#root logger
+#log4j.appender.CONSOLE.Target = System.out 
+log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout
+log4j.appender.CONSOLE.layout.ConversionPattern=%d{yyyy-M-d HH:mm:ss}%x[%5p](%F:%L) %m%n
+#log4j.logger.org.hibernate.SQL=debug
+#log4j.logger.org.hibernate.type=trace

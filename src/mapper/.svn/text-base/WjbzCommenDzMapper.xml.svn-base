@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.WjbzCommenDzDao">
+            
+     <select id="queryCommenDzMx" parameterType="java.lang.String"  resultType="java.util.Map">
+          SELECT p.ORDERID AS ORDERID,p.UNITNO AS UNITNO,p.UNITNAME AS UNITNAME,
+          p.PAYERTIME AS PAYERTIME,p.FEETYPE AS FEETYPE,p.MONEYFLAG AS MONEYFLAG,
+          p.TOTALAMT AS TOTALAMT,p.CARDAMT AS CARDAMT,p.MONEY AS MONEY,
+          p.CARDNO AS CARDNO,p.TRANSTYPE AS TRANSTYPE,p.BACKAMT AS BACKAMT,
+          p.FLAG AS FLAG,m.ORDERID AS ORDERID 
+          FROM APP_PAYMX p left join APP_MONEYMX m on p.ORDERID = m.ZFORDERID 
+          WHERE  substr(p.PAYERTIME,1,8)=#{dzDate} AND p.FEETYPE IN 
+          <foreach item="item" index="index" collection="feeType" open="(" separator="," close=")">  
+		  		#{item}  
+		  </foreach> 
+     </select>
+     
+     <select id="queryDzResultByDate" parameterType="java.lang.String"  resultType="java.util.Map">
+          SELECT TRADEDATE FROM APP_DZRESULT WHERE  TRADEDATE=#{dzDate} AND centaldz = '1' 
+          AND uniondz = '1' AND elecdz = '1' 
+     </select>
+</mapper>

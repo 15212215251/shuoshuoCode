@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.AppSecurtDao">
+
+	<select id="getAppSecurt" parameterType="java.util.Map" resultType="java.util.Map">
+		SELECT USERNO,SECURT,CNTS FROM APP_SECURT WHERE USERNO=#{id}
+	</select>
+
+	<update id="updateSecurt" parameterType="java.util.Map">
+		UPDATE APP_SECURT SET CNTS = CNTS + 1 WHERE USERNO = #{id}
+	</update>
+	
+	<update id="updateCnts" parameterType="java.util.Map">
+		UPDATE APP_SECURT SET CNTS = 0 WHERE USERNO = #{id}
+	</update>
+</mapper>

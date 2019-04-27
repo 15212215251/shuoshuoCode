@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" 	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/aop  http://www.springframework.org/schema/aop/spring-aop-2.5.xsd 	
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd"    >
+
+   <context:component-scan base-package="com.untech.job" />
+	
+	<!-- 启动socket服务 -->
+	<!-- <bean class="com.untect.apcs.socketThreadServer.InitDataServer" depends-on="transactionTemplate,springApplicationContextHolder"/> -->
+	<!-- 线程执行器配置，用于任务注册 -->
+	<bean id="executor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+	 <property name="corePoolSize" value="10" />
+	 <property name="maxPoolSize" value="100" />
+	 <property name="queueCapacity" value="500" />
+	</bean>
+	 <!-- 配置定时主机对账任务
+	 <bean name="xnbbatchJob"  class="com.untech.job.XnbBatchJob"/>
+	 
+	<bean id="xnbbatchmethodInvokingJobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+	      <property name="targetObject">
+	          <ref bean="xnbbatchJob" />
+	      </property>
+	      <property name="targetMethod">
+	          <value>tradingJob</value>
+	      </property>
+	      <property name="concurrent" value="false"/>
+	       
+    </bean> -->
+     
+      
+  <!--   配置触发器 每天20点整
+    <bean id="xnbbatchTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+      <property name="jobDetail"><ref bean="xnbbatchmethodInvokingJobDetail" /></property>
+  	  <property name="cronExpression"><value>00 0/2 * * * ?</value></property>
+    </bean> -->
+     
+    <!-- 添加触发器
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+      <property name="triggers">
+          <list>
+           <ref local="xnbbatchTrigger" />  
+           </list>
+      </property>
+       <property name="taskExecutor" ref="executor" />
+    </bean>-->
+  </beans>

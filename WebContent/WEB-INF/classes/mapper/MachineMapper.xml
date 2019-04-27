@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.MachineDao">
+
+	<select id="queryById" parameterType="java.util.Map" resultType="java.util.Map">
+		SELECT a.MACHINE_ID,a.MACHINE_NAME,a.UNITNO,b.UNITNAME FROM APP_MACHINE a left join APP_UNIT b ON a.UNITNO=b.UNITNO
+			WHERE MACHINE_ID = #{mid}
+	</select>
+	
+	<select id="queryUnitByUnitNo" parameterType="java.util.Map" resultType="java.util.Map">
+		SELECT UNITNO,UNITNAME,PRONAME,MERCHANTID FROM APP_UNIT WHERE UNITNO = #{unitNo}
+	</select>
+
+</mapper>

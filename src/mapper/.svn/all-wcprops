@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/ahlzmd/!svn/ver/39771/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper
+END
+AppPaycodeMerchantstatusMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/ahlzmd/!svn/ver/35663/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppPaycodeMerchantstatusMapper.xml
+END
+OrderMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/ahlzmd/!svn/ver/46048/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/OrderMapper.xml
+END
+UserMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/ahlzmd/!svn/ver/19102/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/UserMapper.xml
+END
+AppPaycodeLimitlistMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/35663/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppPaycodeLimitlistMapper.xml
+END
+AppUnitMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/ahlzmd/!svn/ver/21608/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppUnitMapper.xml
+END
+WjbzMoneyDzMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/ahlzmd/!svn/ver/39339/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/WjbzMoneyDzMapper.xml
+END
+CommerMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/ahlzmd/!svn/ver/19514/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/CommerMapper.xml
+END
+AppMerchantParamMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/35663/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppMerchantParamMapper.xml
+END
+AppMoneyMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/ahlzmd/!svn/ver/45398/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppMoneyMapper.xml
+END
+AppPaycodeStatusMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/ahlzmd/!svn/ver/35663/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppPaycodeStatusMapper.xml
+END
+OnlinePayMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 208
+/svn/ahlzmd/!svn/ver/24870/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/OnlinePayMapper.xml
+END
+AppPaymxMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/ahlzmd/!svn/ver/39771/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppPaymxMapper.xml
+END
+AppPaycodeLimitinfoMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/35663/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppPaycodeLimitinfoMapper.xml
+END
+AppPaycodeInfoMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/ahlzmd/!svn/ver/35663/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppPaycodeInfoMapper.xml
+END
+AppSignMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/ahlzmd/!svn/ver/40629/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppSignMapper.xml
+END
+MachineMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/ahlzmd/!svn/ver/19466/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/MachineMapper.xml
+END
+AppPaycodeInfohisMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/ahlzmd/!svn/ver/35663/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppPaycodeInfohisMapper.xml
+END
+AppSecurtMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 208
+/svn/ahlzmd/!svn/ver/19644/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/AppSecurtMapper.xml
+END
+WjbzCommenDzMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/ahlzmd/!svn/ver/39339/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/mapper/WjbzCommenDzMapper.xml
+END

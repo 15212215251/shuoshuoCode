@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.OrderDao">
+            
+         <insert id="insertTransactionNo" parameterType="java.util.Map">
+             INSERT INTO APP_TRANSACTION( ID, SID, TRANSACTION_NO, ADD_TIME) 
+                    values (#{id},#{sid},#{transactionNo},#{addTime} )
+         </insert>
+         
+         <insert id="insertOrder" parameterType="java.util.Map">
+             INSERT INTO APP_PAYMX( ORDERID, USERNO, UNITNO, UNITNAME, PAYAMT, TOTALAMT, FLAG, FEETYPE, ANDROIDID, MID, DETAIL,ORDER_STATUS,PAYERTIME,MOBILETYPE,ACCOUNTNO,MOBILEINFO,NOTE1) 
+                    VALUES (#{orderId},#{userId},#{unitNo},#{unitName},#{payamt},#{payamt},#{flag},#{feeType},#{androidId},#{mid},#{detail},'2001',#{payerTime},#{type},#{accountno},#{mobileinfo},#{note1} )
+         </insert>
+         <insert id="insertQrCodeOrder" parameterType="java.util.Map">
+             INSERT INTO APP_PAYMX( ORDERID, USERNO, UNITNO, UNITNAME, PAYAMT, TOTALAMT, FLAG, FEETYPE, ANDROIDID, MID, DETAIL,ORDER_STATUS,PAYERTIME,MOBILETYPE,ACCOUNTNO,MOBILEINFO,NOTE1) 
+                    VALUES (#{orderId},'',#{unitNo},#{unitName},#{payamt},#{payamt},#{flag},#{feeType},#{androidId},#{mid},#{detail},'2001',#{payerTime},#{type},'',#{mobileinfo},#{note1} )
+         </insert>
+         
+         
+          <insert id="returnFee" parameterType="java.util.Map">
+            INSERT INTO APP_PAYMX( ORDERID,PAYERTIME, USERNO, UNITNO, UNITNAME, PAYAMT,CARDNO,MOBILEPHONE,CHANNERNO, FLAG, 
+             FEETYPE, NOTE1,NOTE5,BACKAMT,TRANSTYPE,MONEY,CARDAMT,JF,JFAMT,TOTALAMT,MONEYFLAG,STATUS,DETAIL,TRAFFICADDR) 
+             VALUES (#{orderId},#{payerTime},#{userNo},#{unitNo},#{unitName},#{totalAmt},#{cardNo},#{mobile},#{channelNo},#{flag},#{feeType},
+             #{merchantId},'',0.00,#{transType},#{balanceAmt},#{cardAmt},0.00,0.00,#{totalAmt},#{payType},#{status},#{detail},#{oldOrderId} )
+         </insert>
+         
+         <select id="queryTransaction" parameterType="java.lang.String" resultType="java.util.Map">
+         	SELECT ID, SID, TRANSACTION_NO FROM APP_TRANSACTION WHERE TRANSACTION_NO = #{transactionNo}
+         </select>
+         
+        
+         
+         <select id="queryOrderDetail" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID orderId, USERNO userId, UNITNO unitno, UNITNAME unitname, TRAFFICNO trafficno,PAYERTIME,BACKAMT,
+	            PAYAMT totalAmt, ORDER_STATUS status, FEETYPE type, ANDROIDID androidId, MID mid, DETAIL detail, FLAG flag,MOBILETYPE,TRAFFICADDR OLDORDERID
+	        FROM APP_PAYMX  
+         		WHERE ORDERID = #{orderId}
+         </select>
+         
+         <select id="queryLastOrder" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT a.id, a.USERNO,a.MONEYFLAG,coalesce(b.acctno,'') acctno,coalesce(b.PHONE,'') phone,coalesce(b.bank,'') bank ,coalesce(b.status,'') status
+		    FROM APP_PAYMX a LEFT JOIN  (select userno,acctno,phone,bank,status from   APP_SIGN where  STATUS='0' ) b 
+		        ON a.USERNO = b.USERNO  and a.cardno=b.acctno
+		        WHERE a.USERNO = #{USERID} AND TRANSTYPE='1'
+		        AND MONEYFLAG IN ('01','02') AND a.flag in ('1','2') 
+		        ORDER BY PAYERTIME  desc fetch first 1 rows only 
+         </select>
+         <!-- 查询余额 -->
+         <select id="queryBalance" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT USERNO,TOTALAMT,QYWAMT,JFAMT,QTAMT,YHKAMT FROM APP_MONEY
+        		WHERE USERNO = #{USERID}
+         </select>
+         
+         <select id="queryBankcardList" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT USERNO,ACCTNO,ACCTNAME,PHONE,TYPE,CARDTYPE,CERTTYPE,CERTNO,BANK,STATUS FROM APP_SIGN
+       			WHERE USERNO = #{id} AND STATUS = '0'
+         </select>
+         
+		<update id="pushOrderResult" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET ORDER_STATUS = #{status } WHERE ANDROIDID=#{androidId } AND ORDERID=#{orderId }
+		</update>
+		
+		<update id="balancePayment4PayMx" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET CARDNO=#{cardNo },MOBILEPHONE=#{mobile },CHANNERNO=#{channerNo },COREFLOW1=#{coreflow1},
+				COREDATE1=#{coredate1},FLAG=#{flag},MIDDLEFLOW1=#{middleflow1},MIDDLEDATE1=#{middledate1},Moneyflag=#{Moneyflag},ORDER_STATUS=#{order_status} WHERE ORDERID=#{orderId}
+		</update>
+		
+		<update id="updateMoney" parameterType="java.util.Map">
+			UPDATE APP_MONEY SET TOTALAMT=#{totalamt}
+				<if test="qywamt!=NULL">
+					,QYWAMT=#{qywamt}
+				</if>
+				<if test="jfamt!=NULL">
+					,JFAMT=#{jfamt}
+				</if>
+				<if test="qtamt!=NULL">
+					,QTAMT=#{qtamt}
+				</if>
+				<if test="yhkamt!=NULL">
+					,YHKAMT=#{yhkamt}
+				</if>
+			 WHERE USERNO=#{id}
+		</update>
+		
+		<select id="querySign" parameterType="java.util.Map" resultType="java.util.Map">
+			select a.signno ,a.merchantid ,a.status from app_signmx a left join app_unit b on  a.merchantid=b.merchantid 
+				where  a.acctno=#{cardNo} and a.status='0' and a.type=#{channerNo} and b.proname=#{proname} and b.unitno=#{unitNo}
+		</select>
+		
+		<select id="querySignByUserNo" parameterType="java.util.Map" resultType="java.util.Map">
+			SELECT USERNO,PHONE,ACCTNO FROM APP_SIGN WHERE USERNO = #{id} AND STATUS='0'
+		</select>
+		
+		<select id="querySignByCardno" parameterType="java.util.Map" resultType="java.util.Map">
+			SELECT USERNO,PHONE,ACCTNO FROM APP_SIGN WHERE USERNO = #{id} AND ACCTNO=#{acctNo} AND STATUS='0'
+		</select>
+		
+		<insert id="insertMoneyMx" parameterType="java.util.Map">
+			INSERT INTO APP_MONEYMX (ORDERID,ZFORDERID,PAYERTIME,USERNO,MOBILEPHONE,FANTIME,TRANSAMT1,TRANSAMT2,TRANSAMT3,TYPE,CARDNO,CHANNERNO,TRANSTYPE,FEETYPE,STATUS,MIDDLEFLOW,MIDDLEDATE,COREFLOW,COREDATE,DZSTATUS,DZDATE,DZTIME,NOTE1,NOTE2,NOTE3,NOTE4,NOTE5,TRANSAMT5,TRANSAMT4,JFAMF) 
+		        VALUES 
+		        (#{orderId},#{zforderId},#{payertime},#{userNo},#{mobile},#{fantime},#{transamt1},#{transamt2},#{transamt3},#{type},#{cardno},#{channerno},#{transtype},#{feetype},#{status},#{middleflow},#{middledate},#{coreflow},#{coredate},#{dzstatus},#{dzdate},#{dztime},#{note1},#{note2},#{note3},#{note4},#{note5},#{transamt5},0.00,0.00)
+		</insert>
+		
+		<select id="queryMachine" parameterType="java.util.Map" resultType="java.util.Map">
+			SELECT * FROM FROM APP_MACHINE WHERE MACHINE_ID=#{machineId}
+		</select>
+		
+		<update id="updatePayMxByCard" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET CARDNO=#{cardNo},MOBILEPHONE=#{mobile},CHANNERNO=#{channerNo},BACKAMT=0.00,TRANSTYPE='1',MONEY=0.00,CARDAMT=#{cardMoney},JF=0.00,JFAMT=0.00,TOTALAMT=#{cardMoney},STATUS='1',
+			FLAG=#{flag},Moneyflag=#{Moneyflag},ORDER_STATUS=#{order_status} WHERE ORDERID=#{orderId}
+		</update>
+		
+		 <select id="querySignByCard" parameterType="java.util.Map" resultType="java.util.Map">
+			SELECT USERNO,PHONE,ACCTNO FROM APP_SIGN WHERE USERNO = #{id} AND ACCTNO=#{cardNo} AND STATUS='0'
+		</select>
+		
+		<update id="cancelOrder" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET TRAFFICNO='1',TRAFFICCODE=#{channel} WHERE ORDERID=#{orderId}
+		</update>
+		
+		
+		<!-- 通用支付接口  -->
+		<insert id="insertPaymx" parameterType="java.util.Map">
+             INSERT INTO APP_PAYMX( ORDERID,PAYERTIME, USERNO, UNITNO, UNITNAME, PAYAMT,CARDNO,MOBILEPHONE,CHANNERNO, FLAG, 
+             FEETYPE, NOTE1,NOTE5,BACKAMT,TRANSTYPE,MONEY,CARDAMT,JF,JFAMT,TOTALAMT,MONEYFLAG,STATUS,DETAIL,TRAFFICADDR,NOTE4) 
+             VALUES (#{orderId},#{payerTime},#{userNo},#{unitNo},#{unitName},#{totalAmt},#{cardNo},#{mobile},#{channelNo},#{flag},#{feeType},
+             #{merchantId},#{backUrl},0.00,#{transType},#{balanceAmt},#{cardAmt},0.00,0.00,#{totalAmt},#{payType},#{status},#{detail},#{oldOrderId},#{tmallMerchantId} )
+         </insert>
+         
+        <insert id="insertPaymxForEdu" parameterType="java.util.Map">
+             INSERT INTO APP_PAYMX( ORDERID,PAYERTIME, USERNO, UNITNO, UNITNAME, PAYAMT,CARDNO,MOBILEPHONE,CHANNERNO, FLAG, 
+             FEETYPE, NOTE1,NOTE5,BACKAMT,TRANSTYPE,MONEY,CARDAMT,JF,JFAMT,TOTALAMT,MONEYFLAG,STATUS,DETAIL,TRAFFICADDR,NOTE4,NOTE2) 
+             VALUES (#{orderId},#{payerTime},#{userNo},#{unitNo},#{unitName},#{totalAmt},#{cardNo},#{mobile},#{channelNo},#{flag},#{feeType},
+             #{merchantId},#{backUrl},0.00,#{transType},#{balanceAmt},#{cardAmt},0.00,0.00,#{totalAmt},#{payType},#{status},#{detail},#{oldOrderId},#{tmallMerchantId},#{note2} )
+        </insert>
+        
+		<update id="updatePayMxStatusByMoney" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET COREFLOW1=#{coreflow1},STATUS=#{status},
+			COREDATE1=#{coredate1},FLAG=#{flag},MIDDLEFLOW1=#{middleflow1},MIDDLEDATE1=#{middledate1} WHERE ORDERID=#{orderId}
+		</update>
+		<!--
+		<update id="updateEduPayMxStatusByMoney" parameterType="java.util.Map">
+			UPDATE APP_EDU_PAYMX SET COREFLOW1=#{coreflow1},STATUS=#{status},
+				COREDATE1=#{coredate1},FLAG=#{flag},MIDDLEFLOW1=#{middleflow1},MIDDLEDATE1=#{middledate1} WHERE ORDERID=#{orderId}
+		</update>
+		-->
+		<update id="updatePayMxStatusByCard" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET COREFLOW1=#{coreflow1},STATUS=#{status},
+			COREDATE1=#{coredate1},FLAG=#{flag},MIDDLEFLOW1=#{middleflow1},MIDDLEDATE1=#{middledate1} 
+			WHERE ORDERID=#{orderId}
+		</update>
+		
+		<update id="updatePayMxStatusByCard_ahnj" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET  
+			FLAG=#{flag}  WHERE ORDERID=#{orderId}
+		</update>
+		
+		<update id="updatePayMxByCardBack" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET   BACKAMT = BACKAMT + #{totalAmt}  WHERE ORDERID=#{oldOrderId}
+		</update>
+		
+		<update id="updatePayMxByCardTmall" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET   flag=#{flag}  WHERE ORDERID=#{oldOrderId}
+		</update>
+		
+		<select id="queryPaymxInfo" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID "orderId", USERNO "userNo", UNITNO "unitNo", UNITNAME "unitName",CARDAMT "cardAmt",MONEY as "balanceAmt"
+	        ,PAYAMT "totalAmt", PAYERTIME "payerTime", FEETYPE "feeType", Moneyflag "payType", CARDNO "cardNo",TRANSTYPE "transType",BACKAMT "backAmt"
+	        FROM APP_PAYMX   
+         		WHERE USERNO=#{userNo} and FEETYPE=#{feeType} and flag in ('1','2')
+         		<if test="startDate!=''">
+					 AND PAYERTIME>=#{startDate}
+				</if>
+				<if test="endDate!=''">
+					 AND  #{endDate}>=PAYERTIME  
+				</if>
+         </select>
+         
+         <select id="queryOrder" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID , USERNO , UNITNO , UNITNAME , TRAFFICNO ,FLAG,CARDNO,MOBILEPHONE,CHANNERNO,PAYERTIME,TRAFFICADDR,
+	            PAYAMT , ORDER_STATUS , FEETYPE , ANDROIDID , MID , DETAIL , BACKAMT , TRANSTYPE,NOTE1,NOTE5,NOTE4,MONEYFLAG,COREDATE1,COREFLOW1,
+	            ACCOUNTNO,ACCOUNTNAME
+	        FROM APP_PAYMX  
+         		WHERE ORDERID = #{orderId}
+         </select>
+         
+         <select id="queryReturnFeeOrder" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID , USERNO , UNITNO , UNITNAME , TRAFFICNO ,FLAG,CARDNO,MOBILEPHONE,CHANNERNO,PAYERTIME,TRAFFICADDR,
+	            PAYAMT , ORDER_STATUS , FEETYPE , ANDROIDID , MID , DETAIL , BACKAMT , TRANSTYPE,NOTE1,NOTE5,MONEYFLAG,COREDATE1,COREFLOW1
+	        FROM APP_PAYMX  
+         		WHERE TRAFFICADDR = #{orderId}
+         </select>
+         
+          <select id="queryDzAll" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID,USERNO,UNITNO,UNITNAME,TRAFFICNO,FLAG,CARDNO,MOBILEPHONE,CHANNERNO,PAYERTIME,TRAFFICADDR,
+	            PAYAMT , ORDER_STATUS , CARDAMT,MONEY,CARDNO,TRANSTYPE,BACKAMT,FEETYPE , ANDROIDID , MID , DETAIL , BACKAMT , TRANSTYPE,NOTE1,NOTE5,MONEYFLAG,COREDATE1,COREFLOW1
+	        FROM APP_PAYMX  
+         		WHERE feetype = #{feeType}  
+         		 AND PAYERTIME>=#{startDate}  AND  #{endDate}>=PAYERTIME
+         </select>
+            <select id="queryDzUnit" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID,USERNO,UNITNO,UNITNAME,TRAFFICNO,FLAG,CARDNO,MOBILEPHONE,CHANNERNO,PAYERTIME,TRAFFICADDR,
+	            PAYAMT , ORDER_STATUS , CARDAMT,MONEY,CARDNO,TRANSTYPE,BACKAMT,FEETYPE , ANDROIDID , MID , DETAIL , BACKAMT , TRANSTYPE,NOTE1,NOTE5,MONEYFLAG,COREDATE1,COREFLOW1
+	        FROM APP_PAYMX  
+         		WHERE feetype = #{feeType}   and unitno=#{unitNo} and  PAYERTIME>=#{startDate}  AND  #{endDate}>=PAYERTIME
+         </select>
+          <select id="queryDzAllFeetype" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID,USERNO,UNITNO,UNITNAME,TRAFFICNO,FLAG,CARDNO,MOBILEPHONE,CHANNERNO,PAYERTIME,TRAFFICADDR,
+	            PAYAMT , ORDER_STATUS , CARDAMT,MONEY,CARDNO,TRANSTYPE,BACKAMT,FEETYPE , ANDROIDID , MID , DETAIL , BACKAMT , TRANSTYPE,NOTE1,NOTE5,MONEYFLAG,COREDATE1,COREFLOW1
+	        FROM APP_PAYMX  
+         		WHERE feetype = #{feeType}  
+         		 AND PAYERTIME>=#{startDate}  AND  #{endDate}>=PAYERTIME
+         </select>
+            <select id="queryDzUnitFeetype" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID,USERNO,UNITNO,UNITNAME,TRAFFICNO,FLAG,CARDNO,MOBILEPHONE,CHANNERNO,PAYERTIME,TRAFFICADDR,
+	            PAYAMT , ORDER_STATUS , CARDAMT,MONEY,CARDNO,TRANSTYPE,BACKAMT,FEETYPE , ANDROIDID , MID , DETAIL , BACKAMT , TRANSTYPE,NOTE1,NOTE5,MONEYFLAG,COREDATE1,COREFLOW1
+	        FROM APP_PAYMX  
+         		WHERE feetype = #{feeType}   and unitno=#{unitNo} and  PAYERTIME>=#{startDate}  AND  #{endDate}>=PAYERTIME
+         </select>
+         <!-- 查询汇总-->
+          <select id="querySumOrderamt" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT  coalesce(SUM(PAYAMT),0.00) as PAYAMT
+	        FROM APP_PAYMX  
+         		WHERE USERNO=#{userNo} and substr(PAYERTIME,1,8)=#{date} and TRAFFICNO=#{type} 
+         </select>
+         
+         <!--付款码 通用支付接口  -->
+		<insert id="insertPayCodePaymx" parameterType="java.util.Map">
+             INSERT INTO APP_PAYMX( ORDERID,PAYERTIME, USERNO, UNITNO, UNITNAME, PAYAMT,CARDNO,MOBILEPHONE,CHANNERNO, FLAG, 
+             FEETYPE, NOTE1,NOTE5,BACKAMT,TRANSTYPE,MONEY,CARDAMT,JF,JFAMT,TOTALAMT,MONEYFLAG,STATUS,DETAIL,SEQNO,TRAFFICNO) 
+             VALUES (#{orderId},#{payerTime},#{userNo},#{unitNo},#{unitName},#{totalAmt},#{cardNo},#{mobile},#{channelNo},#{flag},#{feeType},
+             #{merchantId},#{backUrl},0.00,#{transType},#{balanceAmt},#{cardAmt},0.00,0.00,#{totalAmt},#{payType},
+             #{status},#{detail},#{seqNo},#{traficNo})
+         </insert>
+         
+         <select id="queryLastOrderCard" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT a.id, a.USERNO,a.MONEYFLAG,coalesce(b.acctno,'') acctno,coalesce(b.PHONE,'') phone,coalesce(b.bank,'') bank ,coalesce(b.status,'') status
+		    FROM APP_PAYMX a LEFT JOIN  (select userno,acctno,phone,bank,status from   APP_SIGN where  STATUS='0' ) b 
+		        ON a.USERNO = b.USERNO  and a.cardno=b.acctno
+		        WHERE a.USERNO = #{userNo} AND TRANSTYPE='1'
+		        AND MONEYFLAG IN ('01') AND a.flag in ('1','2') 
+		        ORDER BY PAYERTIME  desc fetch first 1 rows only 
+         </select>
+         
+         <update id="updatePayCodeByMoney" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET COREFLOW1=#{coreflow1},STATUS=#{status},TRAFFICTIME=#{successTime},
+				COREDATE1=#{coredate1},FLAG=#{flag},MIDDLEFLOW1=#{middleflow1},MIDDLEDATE1=#{middledate1} WHERE ORDERID=#{orderId}
+		</update>
+		<update id="updatePayCodeByCard" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET COREFLOW1=#{coreflow1},STATUS=#{status},TRAFFICTIME=#{successTime},
+				COREDATE1=#{coredate1},FLAG=#{flag},MIDDLEFLOW1=#{middleflow1},MIDDLEDATE1=#{middledate1} 
+			   WHERE ORDERID=#{orderId}
+		</update>
+		
+		<insert id="insertXnbPaymx" parameterType="java.util.Map">
+             INSERT INTO APP_PAYMX( ORDERID,PAYERTIME, USERNO, UNITNO, UNITNAME, PAYAMT,CARDNO,MOBILEPHONE,CHANNERNO, FLAG, 
+             FEETYPE, NOTE1,NOTE5,BACKAMT,TRANSTYPE,MONEY,CARDAMT,JF,JFAMT,TOTALAMT,MONEYFLAG,STATUS,DETAIL,TRAFFICADDR,
+             ACCOUNTNO,ACCOUNTNAME,TRAFFICNO,TRAFFICCODE,TRAFFICTIME) 
+             VALUES (#{orderId},#{payerTime},#{userNo},#{unitNo},#{unitName},#{totalAmt},#{cardNo},#{mobile},#{channelNo},#{flag},#{feeType},
+             #{merchantId},#{backUrl},0.00,#{transType},#{balanceAmt},#{cardAmt},0.00,0.00,#{totalAmt},#{payType},#{status},#{detail},#{oldOrderId},
+             #{inCardNo},#{inCardName},#{inIdNumber},#{inCardMobile},#{inSocialNo} )
+         </insert>
+         
+         <update id="updateXnbNext" parameterType="java.util.Map">
+			UPDATE APP_PAYMX SET RESCODE=#{resCode} 
+			   WHERE ORDERID=#{orderId}
+		</update>
+         <select id="queryXnbBatch" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT ORDERID , USERNO , UNITNO , UNITNAME , TRAFFICNO ,FLAG,CARDNO,MOBILEPHONE,CHANNERNO,PAYERTIME,TRAFFICADDR,TRAFFICNO,
+	            PAYAMT , ORDER_STATUS , FEETYPE , ANDROIDID , MID , DETAIL , BACKAMT , TRANSTYPE,NOTE1,NOTE5,NOTE4,MONEYFLAG,COREDATE1,COREFLOW1
+	        FROM APP_PAYMX  
+         		WHERE  RESCODE='1118' and FLAG='0' 
+         </select>
+         
+         <insert id="insertXnbSecondPaymx" parameterType="java.util.Map">
+             INSERT INTO APP_PAYMX( ORDERID,PAYERTIME, USERNO, UNITNO, UNITNAME, PAYAMT,CARDNO,MOBILEPHONE,CHANNERNO, FLAG, 
+             FEETYPE, NOTE1,NOTE5,BACKAMT,TRANSTYPE,MONEY,CARDAMT,JF,JFAMT,TOTALAMT,MONEYFLAG,STATUS,DETAIL,TRAFFICADDR,NOTE4,TRAFFICNO) 
+             VALUES (#{orderId},#{payerTime},#{userNo},#{unitNo},#{unitName},#{totalAmt},#{cardNo},#{mobile},#{channelNo},#{flag},#{feeType},
+             #{merchantId},#{backUrl},0.00,#{transType},#{balanceAmt},#{cardAmt},0.00,0.00,#{totalAmt},#{payType},#{status},#{detail},#{oldOrderId},#{tmallMerchantId},#{inIdNumber} )
+         </insert>
+         
+         <select id="queryTaxiCashBack" parameterType="java.util.Map" resultType="java.util.Map">
+         	SELECT * FROM APP_MONEYMX WHERE FEETYPE =#{feetype} AND USERNO =#{userNo} AND NOTE4 =#{note4} AND PAYERTIME LIKE   CONCAT(CONCAT('%',#{payTimes}),'%') AND STATUS = '1'
+         </select>
+</mapper>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.AppPaycodeStatusDao">
+   <!-- 查询个人付款码-->
+   <select id="queryPayCodeStatus" parameterType="java.util.Map" resultType="java.util.Map">
+   	    SELECT TYPE,STATUS,NOTE1,NOTE2,NOTE3 FROM  APP_PAYCODE_STATUS
+  		WHERE TYPE=#{type}
+   </select>
+</mapper>

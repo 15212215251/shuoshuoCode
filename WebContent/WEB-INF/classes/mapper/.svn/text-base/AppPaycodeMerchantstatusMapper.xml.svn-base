@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.AppPaycodeMerchantstatusDao">
+   <!-- 查询商户付款码使用状态-->
+   <select id="queryPayCodeMerchantstatus" parameterType="java.util.Map" resultType="java.util.Map">
+   	    SELECT MERCHANTID,STATUS,NOTE1,NOTE2,NOTE3 FROM  APP_PAYCODE_STATUS
+  		WHERE MERCHANTID=#{merchantId}
+   </select>
+</mapper>

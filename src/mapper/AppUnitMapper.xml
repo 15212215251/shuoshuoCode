@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.AppUnitDao">
+
+	<select id="queryUnits" parameterType="java.lang.String" resultType="java.util.Map">
+		SELECT UNITNO, UNITNAME, PRONAME, AREA, NOTE1, NOTE2, FTPIP, FTPPORT, FTPUSER, FTPPASSWD, MERCHANTID FROM APP_UNIT
+			WHERE PRONAME = #{feeType}
+	</select>
+
+    <select id="queryUnitByUnitNo" parameterType="java.util.Map" resultType="java.util.Map">
+		SELECT UNITNO,UNITNAME,PRONAME,MERCHANTID,NOTE1,NOTE2 FROM APP_UNIT WHERE UNITNO = #{unitNo}
+	</select>
+</mapper>

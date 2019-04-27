@@ -1,0 +1,67 @@
+package test;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import net.sf.json.JSONObject;
+
+import com.untech.util.RandomUtil;
+import com.untech.util.ReturnUtil;
+
+public class demo {
+	
+	
+	public static void main(String[] args) {
+			try {
+				URL targetUrl = new URL("http://218.23.173.110:8099/UntechPayTest/queryCards");
+				HttpURLConnection httpConnection = (HttpURLConnection) targetUrl
+						.openConnection();
+				httpConnection.setDoOutput(true);
+				httpConnection.setRequestMethod("POST");
+				httpConnection.setRequestProperty("Content-Type", "application/json");
+				JSONObject jsonObj = new JSONObject();
+				//明文
+				jsonObj.put("userNo", "949494674dc2704f014dc27197130000");
+				//发送报文只包含encryptKey encryptValue
+				String key = RandomUtil.generateNumber(16);
+				System.out.println(key+"--------------");
+				System.out.println(jsonObj.toString());
+				//需要发送的明文如下
+				//{"userNo":"949494674dc2704f014dc27197130000"}
+				
+				Object obj = ReturnUtil.getPayReturn(jsonObj, key);
+				System.out.println("999999999======"+obj.toString());
+				//加密之后的密文如下
+			    //{"encryptKey":"3E4B5FA77CC6B5AAAB96C180844930C85D99720347C67150F3B15E4CA3CE613F511EC9D145D3FEA4BD70E5BD92D7C171D25D3D4CE5AFDC4F973E1E521676DCD406ED0622DC2B2157160E03F941FC5856416679860A7E9148E473F70B6D0D5946DEB77B5AA22CE57BFCB8F1CFDEE43379DD388D7822F4D14163F2005456B98D29","encryptValue":"C906D6043BF2DEDBFE17B6AD55C5ED8A1DD0449949F9E4B7EEE7EA1828C84D510616E75FB4A401095C32342CF115025E"}
+				OutputStream outputStream = httpConnection.getOutputStream();
+				
+				outputStream.write(obj.toString().getBytes());
+				outputStream.flush();
+				if (httpConnection.getResponseCode() != 200) {
+					throw new RuntimeException("Failed : HTTP error code : " + httpConnection.getResponseCode());
+				}
+				BufferedReader responseBuffer = new BufferedReader(new InputStreamReader((httpConnection.getInputStream())));
+				String output;
+				System.out.println("Output from Server:\n");
+				while ((output = responseBuffer.readLine()) != null) {
+					System.out.println(output);
+				}
+				httpConnection.disconnect();
+
+			} catch (MalformedURLException e) {
+
+				e.printStackTrace();
+
+			} catch (IOException e) {
+
+				e.printStackTrace();
+
+			}
+	}
+
+}

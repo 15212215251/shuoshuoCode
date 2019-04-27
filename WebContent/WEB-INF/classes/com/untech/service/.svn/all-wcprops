@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/ahlzmd/!svn/ver/39338/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service
+END
+OnlinePayService.java
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/ahlzmd/!svn/ver/24870/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/OnlinePayService.java
+END
+MerchantService.java
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/ahlzmd/!svn/ver/35662/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/MerchantService.java
+END
+WjbzMoneyDzService.java
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/ahlzmd/!svn/ver/39337/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/WjbzMoneyDzService.java
+END
+PayCodeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/ahlzmd/!svn/ver/35662/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/PayCodeService.java
+END
+RestfulService.java
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/ahlzmd/!svn/ver/18945/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/RestfulService.java
+END
+AppSecurtService.java
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/ahlzmd/!svn/ver/19198/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/AppSecurtService.java
+END
+PayService.java
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/ahlzmd/!svn/ver/45752/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/PayService.java
+END
+WjbzCommenDzService.java
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/ahlzmd/!svn/ver/39337/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/WjbzCommenDzService.java
+END
+OrderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/ahlzmd/!svn/ver/25396/common/08_%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/%E4%BA%B3%E5%B7%9E%E4%B8%AD%E9%97%B4%E4%B8%9A%E5%8A%A1/40%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/UntechPay/src/com/untech/service/OrderService.java
+END

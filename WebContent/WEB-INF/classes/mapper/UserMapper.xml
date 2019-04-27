@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.untech.dao.RestfulDao">
+            
+         <insert id="insertUser" parameterType="User" keyProperty="id">
+             insert into days_user( id, age, name) 
+                    values (#{id},#{age},#{name} )
+         </insert>
+         
+          <insert id="insertLog" parameterType="Log" keyProperty="id">
+             insert into days_log( id, logtime, name) 
+                    values  (#{id},#{logtime},#{name} )
+         </insert>
+         
+         
+          <!--配置一个resultMap 指定返回的类型 -->  
+    <resultMap id="UserMap" type="User">  
+        <id column="id" property="id" />  
+        <result column="name" property="name" />  
+        <result column="age" property="age" />  
+    </resultMap>  
+  
+  
+    <!-- 返回一个list的写法 -->  
+    <select id="queryAllUser"  resultMap="UserMap" >  
+        select * from days_user  
+    </select>  
+  
+  
+  <!--  mybatis 动态sql  http://www.open-open.com/lib/view/open1326100765125.html-->
+          
+</mapper>
